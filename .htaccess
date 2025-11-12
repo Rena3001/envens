@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# public qovluğuna yönləndirmə
+RewriteCond %{REQUEST_URI} !^public
+RewriteRule ^(.*)$ public/$1 [L]
