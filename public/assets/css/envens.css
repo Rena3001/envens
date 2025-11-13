@@ -726,8 +726,8 @@ ul {
 .main-menu__left {
   position: relative;
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  /* align-items: center;
+  flex-wrap: wrap; */
   gap: 50px;
 }
 
