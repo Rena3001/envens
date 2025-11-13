@@ -1,7 +1,6 @@
 @extends('client.layout.master')
 @section('page_title', 'Evens')
-@push('js')
-@endpush
+
 @section('content')
 
 <div class="stricky-header stricked-menu main-menu">
