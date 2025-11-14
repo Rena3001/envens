@@ -5330,6 +5330,7 @@ ul {
 .services-one__list {
   position: relative;
   display: block;
+  margin-top: 50px;
 }
 
 .services-one__list li {
