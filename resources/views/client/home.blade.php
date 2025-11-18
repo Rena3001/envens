@@ -1,5 +1,5 @@
 @extends('client.layout.master')
-@section('page_title', {{ \App\Models\Translation::getText('home_title') }})
+@section('page_title', __('home_title') )
 
 @section('content')
 
