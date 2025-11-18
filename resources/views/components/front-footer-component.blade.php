@@ -129,7 +129,7 @@ $galleryItems = Gallery::where('is_active', true)
                         <a href="{{ $settings->twitter_link }}" target="_blank"><i class="fab fa-twitter"></i></a>
                         @endif
                         @if($settings->linkedin_link)
-                        <a href="{{ $settings->linkedin_link }}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="{{ $settings->linkedin_link }}" target="_blank"><i class="fab fa-tiktok"></i></a>
                         @endif
                         @if($settings->instagram_link)
                         <a href="{{ $settings->instagram_link }}" target="_blank"><i class="fab fa-instagram"></i></a>
