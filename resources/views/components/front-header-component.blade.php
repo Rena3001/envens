@@ -63,7 +63,7 @@
                                 </ul>
                             </li>
                             <li><a href="{{ route('contact', ['locale' => app()->getLocale()]) }}">{{ \App\Models\Translation::getText('contact') }}</a></li>
-                        </ul>
+                        </ul> 
                     </div>
 
                     {{-- Social Media --}}
@@ -72,8 +72,8 @@
                             @if($facebook)
                                 <a href="{{ $facebook }}" target="_blank"><span class="fab fa-facebook-f"></span></a>
                             @endif
-                            @if($twitter)
-                                <a href="{{ $twitter }}" target="_blank"><span class="fab fa-twitter"></span></a>
+                            @if($instagram)
+                                <a href="{{ $instagram }}" target="_blank"><span class="fab fa-instagram"></span></a>
                             @endif
                             @if($linkedin)
                                 <a href="{{ $linkedin }}" target="_blank"><span class="fab fa-tiktok"></span></a>
