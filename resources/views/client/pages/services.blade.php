@@ -1,5 +1,5 @@
 @extends('client.layout.master')
-@section('page_title', __('services_page_title') ?? "Services")
+@section('page_title', __('services_page_title'))
 
 @section('content')
 

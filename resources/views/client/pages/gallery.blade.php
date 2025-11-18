@@ -1,5 +1,5 @@
 @extends('client.layout.master')
-@section('page_title', ('gallery_page_title') ?? "Gallery")
+@section('page_title', __('gallery_page_title'))
 
 @section('content')
 <section class="page-header">

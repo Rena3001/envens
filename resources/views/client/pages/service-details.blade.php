@@ -1,6 +1,6 @@
 @extends('client.layout.master')
 
-@section('page_title', $service->{'title_' . app()->getLocale()} ?? $service->title)
+@section('page_title', __('services-detail_page_title'))
 
 @section('content')
 

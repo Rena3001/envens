@@ -1,5 +1,5 @@
 @extends('client.layout.master')
-@section('page_title', __('contact_page_title') ?? "Contact Page")
+@section('page_title', __('contact_page_title') )
 @section('content')
 
 <!-- Sticky Header -->
