@@ -23,7 +23,7 @@
                     {{-- Logo --}}
                     <div class="main-menu__logo">
                         <a href="{{ route('home', ['locale' => app()->getLocale()]) }}">
-                            <img src="{{ asset('assets/images/resources/logo-1.png') }}" alt="Logo">
+                            <img src="{{ asset('storage/' . $settings->header_logo) }}" alt="Logo">
                         </a>
                     </div>
 
