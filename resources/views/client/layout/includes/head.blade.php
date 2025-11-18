@@ -9,13 +9,13 @@
         @endif
     </title>
 
-
+ 
     </title>
 
     <!-- favicons Icons -->
         <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('storage/' . $settings->header_logo) }}">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('storage/' . $settings->header_logo) }}">
-        <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('storage/' . $settings->header_logo) }}">
+        <link rel="icon" type="image/png" sizes="38x32" href="{{ asset('storage/' . $settings->header_logo) }}">
+        <link rel="icon" type="image/png" sizes="19x16" href="{{ asset('storage/' . $settings->header_logo) }}">
 
     <link rel="manifest" href="{{asset('assets/images/favicons/site.webmanifest')}}">
     <meta name="description" content="envens PHP Template ">
