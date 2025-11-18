@@ -2,11 +2,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-    @hasSection('title')
-        @yield('title')
-    @else
-        {{ translate('home_title') }}
-    @endif
+        @hasSection('title')
+            @yield('title')
+        @else
+            {{ \App\Models\Translation::getText('home_title') }}
+        @endif
+    </title>
+
+
     </title>
 
     <!-- favicons Icons -->
