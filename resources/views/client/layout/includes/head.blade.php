@@ -2,8 +2,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        @hasSection('title')
-            @yield('title')
+        @hasSection('page_title')
+            @yield('page_title')
         @else
             {{ \App\Models\Translation::getText('home_title') }}
         @endif
