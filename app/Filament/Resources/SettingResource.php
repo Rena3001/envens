@@ -29,7 +29,7 @@ class SettingResource extends Resource
                     Forms\Components\Tabs\Tab::make('Sosial Media')->schema([
                         Forms\Components\TextInput::make('facebook_link')->label('Facebook Link'),
                         Forms\Components\TextInput::make('twitter_link')->label('Twitter Link'),
-                        Forms\Components\TextInput::make('linkedin_link')->label('LinkedIn Link'),
+                        Forms\Components\TextInput::make('linkedin_link')->label('Tiktok Link'),
                         Forms\Components\TextInput::make('instagram_link')->label('Instagram Link'),
                         Forms\Components\TextInput::make('youtube_link')->label('YouTube Link'),
                     ]),

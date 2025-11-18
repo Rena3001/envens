@@ -76,7 +76,7 @@
                                 <a href="{{ $twitter }}" target="_blank"><span class="fab fa-twitter"></span></a>
                             @endif
                             @if($linkedin)
-                                <a href="{{ $linkedin }}" target="_blank"><span class="fab fa-linkedin-in"></span></a>
+                                <a href="{{ $linkedin }}" target="_blank"><span class="fab fa-tiktok"></span></a>
                             @endif
                         </div>
                     </div>
