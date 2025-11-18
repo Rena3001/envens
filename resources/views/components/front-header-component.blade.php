@@ -5,6 +5,7 @@
     $facebook = Setting::get('facebook_link');
     $twitter  = Setting::get('twitter_link');
     $linkedin = Setting::get('linkedin_link');
+    $instagram = Setting::get('instagram_link');
     $currentLang = app()->getLocale(); // cari dil
 @endphp
 @php
